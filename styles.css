@@ -1,0 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    background-color: black;
+}
