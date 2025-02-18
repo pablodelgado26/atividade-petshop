@@ -1,309 +1,444 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pet Shop - Seu Melhor Amigo Merece o Melhor</title>
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-
+    <link rel="stylesheet" href="assets/styles/styles.css" />
+  </head>
+  <body>
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container">
-            <a class="navbar-brand" href="#">🐇Dogs e Cia</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Início</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#servicos">Serviços</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#produtos">Sobre Nós</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#depoimentos">Avaliações</a>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contato">Contato</a>
-                    </li>
-                </ul>
-            </div>
+      <div class="container">
+        <a class="navbar-brand" href="#">🐇Dogs e Cia</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Início</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#servicos">Serviços</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#produtos">Sobre Nós</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#depoimentos">Avaliações</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#contato">Contato</a>
+            </li>
+          </ul>
         </div>
+      </div>
     </nav>
 
     <!-- Hero Section -->
     <header class="bg-white text-white text-center py-5">
-        <div class="container d-flex align-items-center justify-content-between">
-            <div class="text-start">
-                <h1 class="display-4 text-dark">Bem-vindo ao Pet Shop</h1>
-                <p class="lead text-dark">Seu melhor amigo merece o melhor cuidado!</p>
-                <a href="#servicos" class="btn btn-light btn-lg">Conheça Nossos Serviços</a>
-            </div>
-            <div>
-                <img src="img/coelho.jpg" alt="Pet Shop" class="img-fluid" style="max-width: 300px;">
-            </div>
+      <div class="container d-flex align-items-center justify-content-between">
+        <div class="text-start">
+          <h1 class="display-4 text-dark">Bem-vindo ao Pet Shop</h1>
+          <p class="lead text-dark">
+            Seu melhor amigo merece o melhor cuidado!
+          </p>
+          <a href="#servicos" class="btn btn-light btn-lg"
+            >Conheça Nossos Serviços</a
+          >
         </div>
+        <div>
+          <img
+            src="img/coelho.jpg"
+            alt="Pet Shop"
+            class="img-fluid"
+            style="max-width: 300px"
+          />
+        </div>
+      </div>
     </header>
 
     <!-- Serviços Section -->
     <section id="servicos" class="py-5">
-        <div class="container">
-            <h2 class="text-center mb-4">Nossos Serviços</h2>
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="card">
-                        <img src="img/pit.jpg" class="card-img-top" alt="Banho e Tosa">
-                        <div class="card-body">
-                            <h5 class="card-title">Banho e Tosa</h5>
-                            <p class="card-text">Deixe seu pet limpo e cheiroso com nossos serviços de banho e tosa.</p>
-                            <a href="#" class="btn btn-primary">Saiba Mais</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card">
-                        <img src="img/image copy 2.png" class="card-img-top" alt="Consulta Veterinária" style="height: 310px;">
-                        <div class="card-body">
-                            <h5 class="card-title">Consulta Veterinária</h5>
-                            <p class="card-text">Cuide da saúde do seu pet com nossas consultas veterinárias.</p>
-                            <a href="#" class="btn btn-primary">Saiba Mais</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card">
-                        <img src="img/image copy.png" class="card-img-top" alt="Hospedagem">
-                        <div class="card-body">
-                            <h5 class="card-title">Hospedagem</h5>
-                            <p class="card-text">Viaje tranquilo sabendo que seu pet está em boas mãos.</p>
-                            <a href="#" class="btn btn-primary">Saiba Mais</a>
-                        </div>
-                    </div>
-                </div>
+      <div class="container">
+        <h2 class="text-center mb-4">Nossos Serviços</h2>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card">
+              <img src="img/pit.jpg" class="card-img-top" alt="Banho e Tosa" />
+              <div class="card-body">
+                <h5 class="card-title">Banho e Tosa</h5>
+                <p class="card-text">
+                  Deixe seu pet limpo e cheiroso com nossos serviços de banho e
+                  tosa.
+                </p>
+                <a href="#" class="btn btn-primary">Saiba Mais</a>
+              </div>
             </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img
+                src="img/image copy 2.png"
+                class="card-img-top"
+                alt="Consulta Veterinária"
+                style="height: 310px"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Consulta Veterinária</h5>
+                <p class="card-text">
+                  Cuide da saúde do seu pet com nossas consultas veterinárias.
+                </p>
+                <a href="#" class="btn btn-primary">Saiba Mais</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img
+                src="img/image copy.png"
+                class="card-img-top"
+                alt="Hospedagem"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Hospedagem</h5>
+                <p class="card-text">
+                  Viaje tranquilo sabendo que seu pet está em boas mãos.
+                </p>
+                <a href="#" class="btn btn-primary">Saiba Mais</a>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- Produtos Section -->
     <section id="produtos" class="py-5 bg-light">
-        <div class="container">
-            <h2 class="text-center mb-4">Nossos Produtos</h2>
-            <div class="row row-cols-1 row-cols-md-5 g-4">
-                <div class="col">
-                    <div class="card h-100">
-                        <img src="img/cat.jpg" class="card-img-top" alt="Produto 1">
-                        <div class="card-body">
-                            <h5 class="card-title" >Bebedouro Inteligente</h5>
-                            <p class="card-text">Mantenha seu pet sempre hidratado com este bebedouro automático e inteligente mesmo não estando em casa.</p>
-                            <a href="#" class="btn btn-primary">Comprar</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card h-100">
-                        <img src="img/ração.jpg" class="card-img-top" alt="Produto 2" >
-                        <div class="card-body">
-                            <h5 class="card-title" >Ração</h5>
-                            <p class="card-text">Ração de alta qualidade para uma alimentação saudável e balanceada do seu pet sem riscos para a saúde de seu pet.</p>
-                            <a href="#" class="btn btn-primary">Comprar</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card h-100">
-                        <img src="img/brinquedos.jpg" class="card-img-top" alt="Produto 3">
-                        <div class="card-body">
-                            <h5 class="card-title">Brinquedos</h5>
-                            <p class="card-text">Diversos brinquedos para entreter e estimular o seu pet, garantindo diversão e bem-estar a todos os momentos.</p>
-                            <a href="#" class="btn btn-primary">Comprar</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card h-100">
-                        <img src="img/roupas.jpg" class="card-img-top" alt="Produto 4">
-                        <div class="card-body">
-                            <h5 class="card-title">Roupas</h5>
-                            <p class="card-text">Roupas estilosas e confortáveis para manter seu pet aquecido e na moda em todas as estações ou em todos as ocasiões.</p>
-                            <a href="#" class="btn btn-primary">Comprar</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card h-100">
-                        <img src="img/utencilios.jpg" class="card-img-top" alt="Produto 5">
-                        <div class="card-body">
-                            <h5 class="card-title" style="margin-top: 5%;">Utensílios</h5>
-                            <p class="card-text">Utensílios diversos para facilitar o dia a dia do seu pet, como comedouros, coleiras, potes, perfumes, e muito mais.</p>
-                            <a href="#" class="btn btn-primary">Comprar</a>
-                        </div>
-                    </div>
-                </div>
+      <div class="container">
+        <h2 class="text-center mb-4">Nossos Produtos</h2>
+        <div class="row row-cols-1 row-cols-md-5 g-4">
+          <div class="col">
+            <div class="card h-100">
+              <img src="img/cat.jpg" class="card-img-top" alt="Produto 1" />
+              <div class="card-body">
+                <h5 class="card-title">Bebedouro Inteligente</h5>
+                <p class="card-text">
+                  Mantenha seu pet sempre hidratado com este bebedouro
+                  automático e inteligente mesmo não estando em casa.
+                </p>
+                <a href="#" class="btn btn-primary">Comprar</a>
+              </div>
             </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="img/ração.jpg" class="card-img-top" alt="Produto 2" />
+              <div class="card-body">
+                <h5 class="card-title">Ração</h5>
+                <p class="card-text">
+                  Ração de alta qualidade para uma alimentação saudável e
+                  balanceada do seu pet sem riscos para a saúde de seu pet.
+                </p>
+                <a href="#" class="btn btn-primary">Comprar</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img
+                src="img/brinquedos.jpg"
+                class="card-img-top"
+                alt="Produto 3"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Brinquedos</h5>
+                <p class="card-text">
+                  Diversos brinquedos para entreter e estimular o seu pet,
+                  garantindo diversão e bem-estar a todos os momentos.
+                </p>
+                <a href="#" class="btn btn-primary">Comprar</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="img/roupas.jpg" class="card-img-top" alt="Produto 4" />
+              <div class="card-body">
+                <h5 class="card-title">Roupas</h5>
+                <p class="card-text">
+                  Roupas estilosas e confortáveis para manter seu pet aquecido e
+                  na moda em todas as estações ou em todos as ocasiões.
+                </p>
+                <a href="#" class="btn btn-primary">Comprar</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img
+                src="img/utencilios.jpg"
+                class="card-img-top"
+                alt="Produto 5"
+              />
+              <div class="card-body">
+                <h5 class="card-title" style="margin-top: 5%">Utensílios</h5>
+                <p class="card-text">
+                  Utensílios diversos para facilitar o dia a dia do seu pet,
+                  como comedouros, coleiras, potes, perfumes, e muito mais.
+                </p>
+                <a href="#" class="btn btn-primary">Comprar</a>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- Galeria Section -->
     <section id="galeria" class="py-5">
-        <div class="container">
-            <h2 class="text-center mb-4">Nossa Galeria</h2>
-            <div class="row row-cols-1 row-cols-md-3 g-4">
-                <div class="col">
-                    <div class="card h-100">
-                        <img src="img/feliz.jpg" class="card-img-top" alt="Galeria 1" style="object-fit: cover;">
-                        <div class="card-body">
-                            <h5 class="card-title" style="margin-top: 2%;">Momentos Felizes</h5>
-                            <p class="card-text">Confira alguns dos momentos felizes dos nossos clientes peludos.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card h-100">
-                        <img src="img/servicos.jpg" class="card-img-top" alt="Galeria 2">
-                        <div class="card-body">
-                            <h5 class="card-title">Nossos Serviços</h5>
-                            <p class="card-text">Veja nossos serviços em ação, cuidando dos pets com carinho e dedicação.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card h-100">
-                        <img src="img/conforto.jpg" class="card-img-top" alt="Galeria 3">
-                        <div class="card-body">
-                            <h5 class="card-title" style="margin-top: 4%;">Ambiente Aconchegante</h5>
-                            <p class="card-text">Conheça o ambiente aconchegante e seguro que oferecemos para os pets.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card h-100">
-                        <img src="img/brincando.jpg" class="card-img-top" alt="Galeria 4">
-                        <div class="card-body">
-                            <h5 class="card-title">Pets Brincando</h5>
-                            <p class="card-text">Momentos de diversão e brincadeiras dos nossos clientes peludos.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card h-100">
-                        <img src="img/relax.jpg" class="card-img-top" alt="Galeria 5">
-                        <div class="card-body">
-                            <h5 class="card-title">Pets Relaxando</h5>
-                            <p class="card-text">Pets relaxando e aproveitando nossos serviços de qualidade.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card h-100">
-                        <img src="img/sastifeitas.jpg" class="card-img-top" alt="Galeria 6">
-                        <div class="card-body">
-                            <h5 class="card-title">Clientes Satisfeitos</h5>
-                            <p class="card-text">Veja a satisfação dos nossos clientes com nossos serviços.</p>
-                        </div>
-                    </div>
-                </div>
+      <div class="container">
+        <h2 class="text-center mb-4">Nossa Galeria</h2>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col">
+            <div class="card h-100">
+              <img
+                src="img/feliz.jpg"
+                class="card-img-top"
+                alt="Galeria 1"
+                style="object-fit: cover"
+              />
+              <div class="card-body">
+                <h5 class="card-title" style="margin-top: 2%">
+                  Momentos Felizes
+                </h5>
+                <p class="card-text">
+                  Confira alguns dos momentos felizes dos nossos clientes
+                  peludos.
+                </p>
+              </div>
             </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img
+                src="img/servicos.jpg"
+                class="card-img-top"
+                alt="Galeria 2"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Nossos Serviços</h5>
+                <p class="card-text">
+                  Veja nossos serviços em ação, cuidando dos pets com carinho e
+                  dedicação.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img
+                src="img/conforto.jpg"
+                class="card-img-top"
+                alt="Galeria 3"
+              />
+              <div class="card-body">
+                <h5 class="card-title" style="margin-top: 4%">
+                  Ambiente Aconchegante
+                </h5>
+                <p class="card-text">
+                  Conheça o ambiente aconchegante e seguro que oferecemos para
+                  os pets.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img
+                src="img/brincando.jpg"
+                class="card-img-top"
+                alt="Galeria 4"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Pets Brincando</h5>
+                <p class="card-text">
+                  Momentos de diversão e brincadeiras dos nossos clientes
+                  peludos.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="img/relax.jpg" class="card-img-top" alt="Galeria 5" />
+              <div class="card-body">
+                <h5 class="card-title">Pets Relaxando</h5>
+                <p class="card-text">
+                  Pets relaxando e aproveitando nossos serviços de qualidade.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img
+                src="img/sastifeitas.jpg"
+                class="card-img-top"
+                alt="Galeria 6"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Clientes Satisfeitos</h5>
+                <p class="card-text">
+                  Veja a satisfação dos nossos clientes com nossos serviços.
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
-    
+
     <!-- Depoimentos Section -->
     <section id="depoimentos" class="py-5 bg-light">
-        <div class="container">
-            <h2 class="text-center mb-4">O Que Nossos Clientes Dizem</h2>
-            <div id="carouselDepoimentos" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <div class="d-flex justify-content-center">
-                            <div class="col-md-8">
-                                <div class="card">
-                                    <div class="card-body">
-                                        <p class="card-text">"Excelente atendimento! Meu cachorro sempre sai feliz e bem cuidado."</p>
-                                        <h5 class="card-title">- João Silva</h5>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+      <div class="container">
+        <h2 class="text-center mb-4">O Que Nossos Clientes Dizem</h2>
+        <div
+          id="carouselDepoimentos"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="d-flex justify-content-center">
+                <div class="col-md-8">
+                  <div class="card">
+                    <div class="card-body">
+                      <p class="card-text">
+                        "Excelente atendimento! Meu cachorro sempre sai feliz e
+                        bem cuidado."
+                      </p>
+                      <h5 class="card-title">- João Silva</h5>
                     </div>
-                    <div class="carousel-item">
-                        <div class="d-flex justify-content-center">
-                            <div class="col-md-8">
-                                <div class="card">
-                                    <div class="card-body">
-                                        <p class="card-text">"Os serviços são de alta qualidade e os profissionais são muito atenciosos."</p>
-                                        <h5 class="card-title">- Maria Oliveira</h5>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="d-flex justify-content-center">
-                            <div class="col-md-8">
-                                <div class="card">
-                                    <div class="card-body">
-                                        <p class="card-text">"Recomendo a todos! Meu gato adora os brinquedos que comprei aqui."</p>
-                                        <h5 class="card-title">- Carlos Pereira</h5>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                  </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselDepoimentos" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Anterior</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselDepoimentos" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Próximo</span>
-                </button>
+              </div>
             </div>
+            <div class="carousel-item">
+              <div class="d-flex justify-content-center">
+                <div class="col-md-8">
+                  <div class="card">
+                    <div class="card-body">
+                      <p class="card-text">
+                        "Os serviços são de alta qualidade e os profissionais
+                        são muito atenciosos."
+                      </p>
+                      <h5 class="card-title">- Maria Oliveira</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="d-flex justify-content-center">
+                <div class="col-md-8">
+                  <div class="card">
+                    <div class="card-body">
+                      <p class="card-text">
+                        "Recomendo a todos! Meu gato adora os brinquedos que
+                        comprei aqui."
+                      </p>
+                      <h5 class="card-title">- Carlos Pereira</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselDepoimentos"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselDepoimentos"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Próximo</span>
+          </button>
         </div>
+      </div>
     </section>
 
     <!-- Contato Section -->
     <section id="contato" class="py-5">
-        <div class="container">
-            <h2 class="text-center mb-4">Entre em Contato</h2>
-            <div class="row justify-content-center">
-                <div class="col-md-6">
-                    <form>
-                        <div class="mb-3">
-                            <label for="nome" class="form-label">Nome</label>
-                            <input type="text" class="form-control" id="nome" required>
-                        </div>
-                        <div class="mb-3">
-                            <label for="email" class="form-label">Email</label>
-                            <input type="email" class="form-control" id="email" required>
-                        </div>
-                        <div class="mb-3">
-                            <label for="mensagem" class="form-label">Mensagem</label>
-                            <textarea class="form-control" id="mensagem" rows="4" required></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-primary w-100">Enviar</button>
-                    </form>
-                </div>
-            </div>
+      <div class="container">
+        <h2 class="text-center mb-4">Entre em Contato</h2>
+        <div class="row justify-content-center">
+          <div class="col-md-6">
+            <form>
+              <div class="mb-3">
+                <label for="nome" class="form-label">Nome</label>
+                <input type="text" class="form-control" id="nome" required />
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" required />
+              </div>
+              <div class="mb-3">
+                <label for="mensagem" class="form-label">Mensagem</label>
+                <textarea
+                  class="form-control"
+                  id="mensagem"
+                  rows="4"
+                  required
+                ></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary w-100">
+                Enviar
+              </button>
+            </form>
+          </div>
         </div>
+      </div>
     </section>
-
 
     <!-- Footer -->
     <footer class="bg-dark text-white text-center py-3">
-        <div class="container">
-            <p>&copy; 2025 Todos os direitos reservados.</p>
-        </div>
+      <div class="container">
+        <p>&copy; 2025 Todos os direitos reservados.</p>
+      </div>
     </footer>
 
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-</body>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+    ></script>
+    <script src="assets/scripts/index.scripts.js"></script>
+  </body>
 </html>
